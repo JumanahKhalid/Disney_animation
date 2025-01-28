@@ -19,8 +19,6 @@ struct ContentView: View {
                         .background(Color.black)
                         .ignoresSafeArea()
                 }
-
-       //
         }
         
         // Use Overlay since ZStack having issue with animation...
