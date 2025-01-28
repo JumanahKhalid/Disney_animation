@@ -11,6 +11,7 @@
 		6AF22E692D48C6DA00D8202E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF22E682D48C6DA00D8202E /* ContentView.swift */; };
 		6AF22E6B2D48C6DC00D8202E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF22E6A2D48C6DC00D8202E /* Assets.xcassets */; };
 		6AF22E6E2D48C6DC00D8202E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF22E6D2D48C6DC00D8202E /* Preview Assets.xcassets */; };
+		6AF22E752D48C79D00D8202E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF22E742D48C79D00D8202E /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6AF22E682D48C6DA00D8202E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6AF22E6A2D48C6DC00D8202E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AF22E6D2D48C6DC00D8202E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AF22E742D48C79D00D8202E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				6AF22E682D48C6DA00D8202E /* ContentView.swift */,
 				6AF22E6A2D48C6DC00D8202E /* Assets.xcassets */,
 				6AF22E6C2D48C6DC00D8202E /* Preview Content */,
+				6AF22E742D48C79D00D8202E /* SplashScreen.swift */,
 			);
 			path = Disney_animation;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF22E752D48C79D00D8202E /* SplashScreen.swift in Sources */,
 				6AF22E692D48C6DA00D8202E /* ContentView.swift in Sources */,
 				6AF22E672D48C6DA00D8202E /* Disney_animationApp.swift in Sources */,
 			);

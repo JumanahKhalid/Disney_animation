@@ -7,18 +7,29 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+                VStack(alignment: .leading, spacing: 20){
+                    
+                    Image("bgimage")
+                        .resizable()
+                        .background(Color.black)
+                        .ignoresSafeArea()
+                }
+
+       
         }
-        .padding()
+        
+        // Use Overlay since ZStack having issue with animation...
+        .overlay(SplashScreen())
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
